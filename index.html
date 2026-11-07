@@ -2,197 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#090b20">
-  <meta name="description" content="Cosmic English Learning — explore English through listening, reading, vocabulary, grammar, speaking and writing.">
-  <title>Cosmic English Learning — Explore English</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101329">
+  <meta name="description" content="Cosmic English Learning — English to be on the Earth. Explore. Learn. Communicate.">
+  <title>Cosmic English Learning</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <style>
-    :root{color-scheme:dark;--bg:#080a1c;--panel:#11152d;--panel2:#171b39;--text:#f4f4ff;--muted:#a6abc9;--line:rgba(194,198,255,.13);--purple:#a78bfa;--cyan:#67e8f9;--pink:#f0abfc;--green:#86efac;--shadow:0 24px 80px rgba(0,0,0,.3);--radius:24px}
-    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 12% 0%,rgba(99,102,241,.16),transparent 34rem),radial-gradient(ellipse at 90% 18%,rgba(192,132,252,.12),transparent 30rem),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.65}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}button{cursor:pointer}.shell{width:min(1160px,calc(100% - 40px));margin:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(8,10,28,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;font-family:"Space Grotesk";font-weight:700;letter-spacing:-.5px}.brand-mark{width:38px;height:38px;border-radius:13px;background:linear-gradient(135deg,#8b5cf6,#22d3ee);display:grid;place-items:center;box-shadow:0 0 28px #8b5cf655}.brand-mark svg{width:22px}.navlinks{display:flex;align-items:center;gap:22px;color:var(--muted);font-size:13px;font-weight:700}.navlinks a:hover,.navlinks a.active{color:white}.nav-actions{display:flex;align-items:center;gap:10px}.icon-btn,.menu-btn{width:40px;height:40px;border:1px solid var(--line);border-radius:13px;background:var(--panel);color:var(--text);display:grid;place-items:center}.menu-btn{display:none}.hero{position:relative;overflow:hidden;padding:94px 0 74px}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:44px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:#c4b5fd;border:1px solid #a78bfa44;background:#a78bfa12;padding:7px 12px;border-radius:999px;font-size:11px;font-weight:800;letter-spacing:1.3px;text-transform:uppercase}.dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 12px var(--green)}h1,h2,h3{font-family:"Space Grotesk",sans-serif;line-height:1.1;letter-spacing:-1.5px}h1{font-size:clamp(48px,6.4vw,78px);margin:23px 0 20px;max-width:700px}h1 span{background:linear-gradient(100deg,#c4b5fd 5%,#67e8f9 55%,#f0abfc 95%);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-copy{font-size:17px;color:var(--muted);max-width:560px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{border:0;border-radius:14px;padding:13px 19px;font-weight:800;font-size:13px;display:inline-flex;align-items:center;gap:9px;transition:.2s transform,.2s box-shadow}.btn:hover{transform:translateY(-3px)}.btn-primary{color:#080a1c;background:linear-gradient(110deg,#c4b5fd,#67e8f9);box-shadow:0 10px 30px #67e8f922}.btn-secondary{background:var(--panel);border:1px solid var(--line);color:var(--text)}.hero-note{font-size:12px;color:#858bab;margin-top:18px}.orbit-wrap{height:390px;position:relative;display:grid;place-items:center}.planet{width:245px;height:245px;border-radius:50%;background:radial-gradient(circle at 30% 25%,#f0abfc 0,#a78bfa 20%,#4f46a5 48%,#171b48 75%);box-shadow:inset -25px -25px 55px #050718aa,0 0 90px #8b5cf655;position:relative}.planet:before{content:"";position:absolute;width:340px;height:95px;border:13px solid #9be9f2aa;border-left-color:#a78bfaaa;border-right-color:#f0abfc99;border-radius:50%;transform:rotate(-24deg);top:76px;left:-48px;filter:drop-shadow(0 0 12px #67e8f966)}.planet:after{content:"✦";position:absolute;color:white;font-size:28px;top:52px;left:63px;text-shadow:0 0 18px white}.orbit-label{position:absolute;padding:10px 14px;border:1px solid var(--line);background:#141832dd;backdrop-filter:blur(12px);border-radius:14px;font-size:12px;font-weight:800;box-shadow:var(--shadow)}.orbit-label.one{top:30px;right:4px}.orbit-label.two{bottom:50px;left:0}.orbit-label.three{bottom:12px;right:25px}.stars{position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(2px 2px at 15% 20%,#fff 50%,transparent 60%),radial-gradient(1px 1px at 80% 15%,#fff 50%,transparent 60%),radial-gradient(2px 2px at 60% 80%,#c4b5fd 50%,transparent 60%),radial-gradient(1px 1px at 30% 70%,#fff 50%,transparent 60%),radial-gradient(1px 1px at 90% 60%,#67e8f9 50%,transparent 60%);opacity:.65}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px;max-width:510px}.stat{border-left:2px solid #a78bfa;padding-left:13px}.stat strong{display:block;font:700 21px "Space Grotesk"}.stat span{font-size:11px;color:var(--muted)}section{padding:78px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:24px;margin-bottom:28px}.kicker{color:var(--cyan);font-size:11px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}.section-head h2{font-size:clamp(30px,4vw,43px);margin:9px 0 0}.section-head p{color:var(--muted);max-width:430px;margin:0;font-size:14px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(145deg,rgba(24,29,61,.95),rgba(14,17,39,.95));border:1px solid var(--line);border-radius:var(--radius);padding:23px;position:relative;overflow:hidden;transition:.25s transform,.25s border-color}.card:hover{transform:translateY(-5px);border-color:#a78bfa77}.card-icon{width:48px;height:48px;border-radius:16px;display:grid;place-items:center;font-size:23px;margin-bottom:21px;background:linear-gradient(135deg,#a78bfa2b,#67e8f92b);border:1px solid #a78bfa33}.card h3{font-size:20px;margin:0 0 9px;letter-spacing:-.5px}.card p{font-size:13px;color:var(--muted);margin:0 0 20px}.card-link{font-size:12px;font-weight:800;color:#c4b5fd;display:inline-flex;align-items:center;gap:8px}.tag{font-size:10px;color:#a5f3fc;background:#67e8f914;border:1px solid #67e8f92c;padding:5px 9px;border-radius:99px;font-weight:800}.skill-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.lesson-layout{display:grid;grid-template-columns:1fr 1fr;gap:17px}.lesson{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:26px}.lesson h3{font-size:23px;margin:8px 0 12px}.lesson p,.lesson li{font-size:13px;color:var(--muted)}.lesson ul{padding-left:19px}.audio-line{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 0;border-top:1px solid var(--line)}.audio-line strong{font-size:13px}.audio-line small{display:block;color:var(--muted);font-size:11px}.play{border:1px solid #67e8f955;background:#67e8f915;color:var(--cyan);border-radius:12px;padding:9px 12px;font-size:12px;font-weight:800}.vocab-card{min-height:210px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:radial-gradient(circle at 50% 0%,#a78bfa25,transparent 60%),var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:25px}.vocab-word{font:700 36px "Space Grotesk";margin:10px 0}.vocab-meaning{color:var(--muted);font-size:14px}.vocab-controls{display:flex;justify-content:center;gap:10px;margin-top:15px}.grammar-quiz{margin-top:17px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:25px}.quiz-options{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:17px 0}.quiz-option{border:1px solid var(--line);border-radius:12px;padding:12px;background:var(--panel2);color:var(--text);font-size:12px}.quiz-option:hover{border-color:var(--purple)}.quiz-feedback{min-height:22px;font-size:12px;color:var(--cyan)}.prompt-box{background:linear-gradient(120deg,#8b5cf622,#22d3ee12);border:1px solid #a78bfa44;border-radius:var(--radius);padding:27px}.prompt-box h3{font-size:24px;margin:8px 0}.prompt-box p{font-size:13px;color:var(--muted)}.writing-area{width:100%;min-height:135px;resize:vertical;background:#080b20;border:1px solid var(--line);border-radius:14px;padding:15px;color:var(--text);outline:none}.writing-area:focus{border-color:var(--purple)}.resource-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.resource{display:flex;align-items:center;gap:13px;padding:16px;background:var(--panel);border:1px solid var(--line);border-radius:16px}.resource-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:12px;background:#a78bfa20}.resource strong{display:block;font-size:13px}.resource span{display:block;color:var(--muted);font-size:11px}.resource a{margin-left:auto;color:var(--cyan);font-size:12px;font-weight:800}.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:center}.about-art{min-height:260px;border-radius:var(--radius);background:radial-gradient(circle at 50% 50%,#8b5cf655,transparent 42%),linear-gradient(145deg,#141a3d,#0b0e24);border:1px solid var(--line);display:grid;place-items:center;font-size:80px}.about-copy p{color:var(--muted);font-size:14px}.footer{padding:35px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer a{color:#c4b5fd}.search-wrap{position:relative}.search-input{width:190px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:10px 13px;color:var(--text);font-size:12px;outline:none}.search-input:focus{border-color:var(--purple)}.mobile-panel{display:none}.hidden{display:none!important}.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);background:#e9ddff;color:#17122a;padding:11px 16px;border-radius:12px;font-size:12px;font-weight:800;opacity:0;transition:.25s;z-index:50;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}
-    body.light{color-scheme:light;--bg:#f5f5ff;--panel:#fff;--panel2:#f0efff;--text:#17152d;--muted:#626581;--line:rgba(64,57,120,.15);--shadow:0 20px 55px rgba(50,40,100,.12);background:radial-gradient(ellipse at 12% 0%,#c4b5fd55,transparent 34rem),radial-gradient(ellipse at 90% 18%,#67e8f944,transparent 30rem),var(--bg)}body.light .topbar{background:#f7f6ffdd}body.light .orbit-label{background:#fffddd}body.light .writing-area{background:#fff;color:var(--text)}body.light .navlinks a:hover,body.light .navlinks a.active{color:#30235c}body.light .btn-secondary{color:var(--text)}body.light .quiz-option{color:var(--text)}body.light .planet{box-shadow:inset -25px -25px 55px #24204a55,0 0 90px #8b5cf633}
-    @media(max-width:900px){.navlinks{display:none}.menu-btn{display:grid}.hero-grid{grid-template-columns:1fr}.hero{padding-top:65px}.orbit-wrap{height:320px}.grid{grid-template-columns:repeat(2,1fr)}.mobile-panel{position:absolute;top:76px;left:0;right:0;background:var(--panel);border-bottom:1px solid var(--line);padding:14px 22px;display:none}.mobile-panel.open{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.mobile-panel a{padding:10px;color:var(--muted);font-size:13px}}
-    @media(max-width:620px){.shell{width:min(100% - 28px,1160px)}.nav{height:66px}.brand{font-size:13px}.search-input{width:130px}.hero{padding:52px 0 45px}.hero-grid{gap:5px}h1{font-size:48px}.hero-copy{font-size:15px}.orbit-wrap{height:280px}.planet{width:180px;height:180px}.planet:before{width:255px;height:70px;top:55px;left:-38px;border-width:9px}.orbit-label{font-size:10px}.orbit-label.one{right:0}.orbit-label.two{bottom:30px}section{padding:55px 0}.section-head{display:block}.section-head p{margin-top:12px}.grid,.lesson-layout,.about,.resource-list{grid-template-columns:1fr}.quiz-options{grid-template-columns:1fr}.stats{gap:8px}.stat strong{font-size:18px}.stat span{font-size:10px}.about-art{min-height:190px}.footer-inner{display:block}.footer-inner span{display:block;margin-top:8px}}
-    @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+    :root{color-scheme:dark;--bg:#090b1b;--panel:#141832;--line:#ffffff1b;--text:#f5f4ff;--muted:#b3b6d0;--violet:#b8a1ff;--cyan:#80eaff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 15% 0%,#7655d52b,transparent 38rem),radial-gradient(ellipse at 90% 30%,#39c9e31a,transparent 34rem),var(--bg);color:var(--text);font:15px/1.6 "DM Sans",sans-serif;min-height:100vh}
+    a{color:inherit;text-decoration:none}.shell{width:min(1440px,calc(100% - 48px));margin:auto}
+    .top{position:sticky;top:0;z-index:5;background:#090b1bdc;backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font:700 17px "Space Grotesk",sans-serif;letter-spacing:-.5px}.mark{display:grid;place-items:center;width:40px;height:40px;border-radius:14px;background:linear-gradient(135deg,#8c69f7,#53d8ec);color:#101329;font-size:22px;box-shadow:0 0 28px #8c69f755}.brand em{font-style:normal;color:var(--violet)}
+    .navlinks{display:flex;align-items:center;gap:22px;color:var(--muted);font-size:13px;font-weight:700}.navlinks a:hover{color:white}.open{padding:10px 15px;border-radius:12px;background:linear-gradient(110deg,#c5b5ff,#80eaff);color:#101329;font-size:12px;font-weight:800}
+    .hero{padding:54px 0 30px;display:flex;align-items:end;justify-content:space-between;gap:30px}.eyebrow{font-size:10px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase;color:var(--cyan)}h1,h2{font-family:"Space Grotesk",sans-serif;letter-spacing:-1.3px;line-height:1.1}h1{font-size:clamp(35px,5vw,58px);margin:9px 0 12px}h1 span{background:linear-gradient(100deg,#c8b8ff,#75e9f5);background-clip:text;color:transparent}.intro{max-width:650px;color:var(--muted);margin:0}.hero-note{color:#d5ccff;font-size:12px;white-space:nowrap;border:1px solid #b8a1ff44;background:#b8a1ff12;padding:11px 14px;border-radius:14px}
+    .workspace{display:grid;grid-template-columns:230px minmax(0,1fr);gap:18px;padding:14px 0 38px}.side{align-self:start;position:sticky;top:94px;background:#141832b8;border:1px solid var(--line);border-radius:20px;padding:17px}.side h2{font-size:14px;margin:2px 0 13px;letter-spacing:0}.side a{display:flex;align-items:center;gap:11px;padding:10px 11px;border-radius:11px;color:var(--muted);font-size:12px;font-weight:700;transition:.2s}.side a:hover,.side a:focus{background:#b8a1ff1c;color:white}.side small{display:block;margin:14px 10px 0;color:#8f94b4;font-size:10px;line-height:1.5}
+    .frame-wrap{overflow:hidden;border:1px solid #b8a1ff45;border-radius:22px;background:#fff;box-shadow:0 28px 90px #0005;min-height:76vh;position:relative}.frame-head{height:42px;background:#171b39;display:flex;align-items:center;gap:7px;padding:0 14px;border-bottom:1px solid var(--line)}.orb{width:8px;height:8px;border-radius:50%;background:#b8a1ff}.orb:nth-child(2){background:#80eaff}.orb:nth-child(3){background:#f3a9df}.frame-label{margin-left:7px;color:#b6bad5;font-size:10px;font-weight:700;letter-spacing:.5px}.frame-head a{margin-left:auto;color:var(--cyan);font-size:11px;font-weight:700}
+    iframe{display:block;width:100%;height:calc(100vh - 190px);min-height:680px;border:0;background:white}
+    .fallback{display:none;padding:34px;text-align:center;background:#11152d;color:var(--text)}.fallback p{color:var(--muted);max-width:520px;margin:0 auto 18px}.fallback a{display:inline-block;padding:12px 18px;border-radius:12px;background:linear-gradient(110deg,#c5b5ff,#80eaff);color:#101329;font-weight:800;font-size:12px}
+    footer{border-top:1px solid var(--line);padding:22px 0 30px;color:#9297b7;font-size:11px}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}.foot strong{color:#d7d1ff}footer a{color:var(--violet)}
+    @media(max-width:900px){.navlinks{display:none}.workspace{grid-template-columns:1fr}.side{position:static;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:3px}.side h2,.side small{grid-column:1/-1}.side a{justify-content:center}.hero{display:block}.hero-note{display:inline-block;margin-top:17px}.frame-wrap{border-radius:16px}iframe{height:78vh;min-height:600px}}
+    @media(max-width:560px){.shell{width:calc(100% - 24px)}.nav{height:65px}.brand{font-size:14px}.open{font-size:10px;padding:9px 11px}.hero{padding:35px 0 20px}h1{font-size:38px}.intro{font-size:13px}.side{grid-template-columns:repeat(2,minmax(0,1fr));padding:12px}.side a{justify-content:flex-start}.workspace{padding-top:8px}.frame-head{height:38px}iframe{height:75vh;min-height:560px}.foot{display:block}.foot span{display:block;margin-top:7px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
   </style>
 </head>
 <body>
-  <div class="stars"></div>
-  <header class="topbar">
-    <div class="shell nav">
-      <a class="brand" href="#home" aria-label="Cosmic English Learning home"><span class="brand-mark">✦</span><span>cosmic <span style="color:#a78bfa">english</span></span></a>
-      <nav class="navlinks" aria-label="Main navigation">
-        <a href="#explore">Explore</a><a href="#listening">Listening</a><a href="#reading">Reading</a><a href="#vocabulary">Vocabulary</a><a href="#grammar">Grammar</a><a href="#practice">Practice</a>
-      </nav>
-      <div class="nav-actions">
-        <div class="search-wrap"><input class="search-input" id="siteSearch" type="search" placeholder="Search lessons…" aria-label="Search lessons"></div>
-        <button class="icon-btn" id="themeToggle" aria-label="Toggle light and dark theme">☼</button>
-        <button class="menu-btn" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
-      </div>
-    </div>
-    <nav class="mobile-panel" id="mobilePanel" aria-label="Mobile navigation">
-      <a href="#explore">Explore</a><a href="#listening">Listening</a><a href="#reading">Reading</a><a href="#vocabulary">Vocabulary</a><a href="#grammar">Grammar</a><a href="#practice">Practice</a><a href="#resources">Resources</a><a href="#about">About</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="shell hero-grid">
-        <div>
-          <span class="eyebrow"><span class="dot"></span> your universe of english</span>
-          <h1>English is a <span>whole universe.</span><br>Explore it.</h1>
-          <p class="hero-copy">A place to build confidence, discover new words and make English part of your everyday world. One small step at a time.</p>
-          <div class="hero-actions"><a class="btn btn-primary" href="#explore">Start exploring <span>↗</span></a><a class="btn btn-secondary" href="#practice">Try a quick activity <span>✦</span></a></div>
-          <p class="hero-note">✧ Listening · Reading · Vocabulary · Grammar · Speaking · Writing</p>
-          <div class="stats"><div class="stat"><strong>6</strong><span>learning skills</span></div><div class="stat"><strong>∞</strong><span>things to discover</span></div><div class="stat"><strong>1 day</strong><span>to start learning</span></div></div>
-        </div>
-        <div class="orbit-wrap" aria-label="Illustration of a purple planet with rings"><div class="planet"></div><div class="orbit-label one">✦ Think in English</div><div class="orbit-label two">☄ Learn at your pace</div><div class="orbit-label three">◎ Stay curious</div></div>
-      </div>
+  <header class="top"><div class="shell nav">
+    <a class="brand" href="#top"><span class="mark">✦</span><span>cosmic <em>english</em> learning</span></a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#learning">Learning space</a><a href="#about">About</a></nav>
+    <a class="open" href="https://sites.google.com/view/cosmicenglishlearning/" target="_blank" rel="noopener">Open original ↗</a>
+  </div></header>
+  <main id="top" class="shell">
+    <section class="hero" id="about">
+      <div><span class="eyebrow">Explore · Learn · Communicate</span><h1>English to be on the <span>Earth.</span></h1><p class="intro">Welcome to Cosmic English Learning — a place to explore English, discover resources and keep learning together. The original learning materials are kept below, with their pages, media and links intact.</p></div>
+      <div class="hero-note">✧ A universe of learning</div>
     </section>
-
-    <section id="explore">
-      <div class="shell">
-        <div class="section-head"><div><span class="kicker">choose your destination</span><h2>Explore the universe</h2></div><p>Every skill is a different planet. Pick one, try an activity and keep moving forward.</p></div>
-        <div class="grid searchable">
-          <article class="card" data-search="listening audio understand spoken english"><div class="card-icon">🎧</div><div class="skill-top"><span class="tag">SKILL 01</span><span>◉</span></div><h3>Listening</h3><p>Train your ears with short dialogues, useful expressions and listen-and-repeat practice.</p><a class="card-link" href="#listening">Tune in <span>→</span></a></article>
-          <article class="card" data-search="reading texts comprehension stories"><div class="card-icon">📖</div><div class="skill-top"><span class="tag">SKILL 02</span><span>◉</span></div><h3>Reading</h3><p>Explore short texts, discover meaning from context and check what you understood.</p><a class="card-link" href="#reading">Open a text <span>→</span></a></article>
-          <article class="card" data-search="vocabulary words flashcards meaning"><div class="card-icon">🪐</div><div class="skill-top"><span class="tag">SKILL 03</span><span>◉</span></div><h3>Vocabulary</h3><p>Collect useful words and phrases. Flip through a mini set of flashcards.</p><a class="card-link" href="#vocabulary">Discover words <span>→</span></a></article>
-          <article class="card" data-search="grammar rules tenses sentences quiz"><div class="card-icon">🧩</div><div class="skill-top"><span class="tag">SKILL 04</span><span>◉</span></div><h3>Grammar</h3><p>Make sense of sentence structure with clear examples and a quick challenge.</p><a class="card-link" href="#grammar">Build a sentence <span>→</span></a></article>
-          <article class="card" data-search="speaking conversation pronunciation prompts"><div class="card-icon">🗣️</div><div class="skill-top"><span class="tag">SKILL 05</span><span>◉</span></div><h3>Speaking</h3><p>Find ideas, practise saying them out loud and grow comfortable expressing yourself.</p><a class="card-link" href="#speaking">Find your voice <span>→</span></a></article>
-          <article class="card" data-search="writing write paragraphs creative text"><div class="card-icon">✍️</div><div class="skill-top"><span class="tag">SKILL 06</span><span>◉</span></div><h3>Writing</h3><p>Turn ideas into sentences and paragraphs with a simple guided writing prompt.</p><a class="card-link" href="#writing">Start writing <span>→</span></a></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="listening">
-      <div class="shell">
-        <div class="section-head"><div><span class="kicker">01 / listening lab</span><h2>Listen. Notice. Repeat.</h2></div><p>Read the mini dialogues and use your browser's voice to hear the English sentences.</p></div>
-        <div class="lesson-layout">
-          <article class="lesson"><span class="tag">EVERYDAY ENGLISH</span><h3>Meeting someone new</h3><p>A short conversation you might hear on your first day somewhere new.</p>
-            <div class="audio-line"><div><strong>Alex: Hi! Is this your first day here?</strong><small>Friendly question</small></div><button class="play" data-say="Hi! Is this your first day here?">▶ Listen</button></div>
-            <div class="audio-line"><div><strong>Sam: Yes, it is. I'm a little nervous.</strong><small>Sharing a feeling</small></div><button class="play" data-say="Yes, it is. I'm a little nervous.">▶ Listen</button></div>
-            <div class="audio-line"><div><strong>Alex: Don't worry. Everyone is really nice.</strong><small>Offering reassurance</small></div><button class="play" data-say="Don't worry. Everyone is really nice.">▶ Listen</button></div>
-          </article>
-          <article class="lesson"><span class="tag">LISTENING TIPS</span><h3>Make every listen count</h3><ul><li>First, listen for the general idea. Don't stop at every unknown word.</li><li>Listen again and notice words that connect ideas.</li><li>Repeat one sentence. Copy the rhythm, not just each sound.</li><li>Try to explain the conversation in your own words.</li></ul><p><strong style="color:var(--text)">Your mini mission:</strong> Can you remember one question and one reassuring phrase from the dialogue?</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section id="reading">
-      <div class="shell">
-        <div class="section-head"><div><span class="kicker">02 / reading orbit</span><h2>A little story, a new perspective.</h2></div><p>Read for the main idea first. Then look for details that support it.</p></div>
-        <article class="lesson">
-          <span class="tag">SHORT READING · A2–B1</span><h3>The little observatory</h3>
-          <p>Every Friday evening, Maya visits the small observatory near her town. She used to think that space was too far away to feel real. Then one night, she looked through a telescope and saw the rings of Saturn. They looked like a tiny drawing in the dark.</p>
-          <p>Since that evening, Maya has kept a notebook. She writes down questions, sketches what she sees and searches for answers. She does not understand everything yet, but she enjoys learning something new each week. For Maya, curiosity is a journey — not a race.</p>
-          <div class="prompt-box" style="margin-top:18px"><strong>Check your understanding</strong><p>Why does Maya keep a notebook?</p><div class="quiz-options" id="readingOptions"><button class="quiz-option" data-correct="false">To write stories for school</button><button class="quiz-option" data-correct="true">To record questions and observations</button><button class="quiz-option" data-correct="false">To plan a trip to another town</button></div><div class="quiz-feedback" id="readingFeedback" aria-live="polite"></div></div>
-        </article>
-      </div>
-    </section>
-
-    <section id="vocabulary">
-      <div class="shell">
-        <div class="section-head"><div><span class="kicker">03 / word constellation</span><h2>Words worth keeping.</h2></div><p>Flip through these useful words. Try to make your own sentence with each one.</p></div>
-        <div class="vocab-card"><span class="tag" id="vocabCount">WORD 1 OF 6</span><div class="vocab-word" id="vocabWord">Curious</div><div class="vocab-meaning" id="vocabMeaning">Wanting to learn or know more about something.</div><div class="vocab-controls"><button class="btn btn-secondary" id="prevWord">← Previous</button><button class="btn btn-primary" id="nextWord">Next word →</button></div></div>
-      </div>
-    </section>
-
-    <section id="grammar">
-      <div class="shell">
-        <div class="section-head"><div><span class="kicker">04 / grammar station</span><h2>Make the pieces fit.</h2></div><p>Grammar gives your ideas a clear structure. Start with this quick present simple challenge.</p></div>
-        <div class="lesson"><span class="tag">QUICK GUIDE</span><h3>Present simple</h3><p>Use the present simple for habits, routines and facts.</p><div class="grid" style="grid-template-columns:repeat(2,1fr);margin-top:18px"><div class="card"><strong> I / You / We / They</strong><p style="margin:8px 0 0">I <b style="color:var(--cyan)">study</b> English every day.</p></div><div class="card"><strong>He / She / It</strong><p style="margin:8px 0 0">She <b style="color:var(--cyan)">studies</b> English every day.</p></div></div><p>Remember: with he, she or it, the verb usually takes <b style="color:var(--text)">-s</b> or <b style="color:var(--text)">-es</b>.</p></div>
-        <div class="grammar-quiz"><span class="tag">YOUR TURN</span><h3 style="font-size:22px;margin:12px 0">Choose the correct sentence:</h3><p style="color:var(--muted);font-size:13px">“My brother _____ football on Saturdays.”</p><div class="quiz-options" id="grammarOptions"><button class="quiz-option" data-correct="false">play</button><button class="quiz-option" data-correct="true">plays</button><button class="quiz-option" data-correct="false">playing</button></div><div class="quiz-feedback" id="grammarFeedback" aria-live="polite"></div></div>
-      </div>
-    </section>
-
-    <section id="practice">
-      <div class="shell">
-        <div class="section-head"><div><span class="kicker">05 / speaking studio</span><h2>Find your voice.</h2></div><p>You don't need perfect English to communicate. Start with one idea and build from there.</p></div>
-        <div class="prompt-box" id="speaking"><span class="tag">SPEAKING PROMPT</span><h3 id="speakingPrompt">Describe a place where you feel relaxed.</h3><p>Try speaking for 30–60 seconds. You can use these starters:</p><p style="color:var(--text)">“I feel relaxed when…” · “One thing I like about this place is…” · “I usually go there with…”</p><button class="btn btn-primary" id="newPrompt">Give me another prompt ↗</button></div>
-      </div>
-    </section>
-
-    <section id="writing">
-      <div class="shell">
-        <div class="section-head"><div><span class="kicker">06 / writing workshop</span><h2>Put your thoughts into words.</h2></div><p>Write a short paragraph. This space stays in your browser and is not sent anywhere.</p></div>
-        <div class="lesson"><span class="tag">WRITING CHALLENGE</span><h3>Write about something you want to learn.</h3><p>Try to include: what it is, why it interests you, and one step you could take to get started.</p><textarea class="writing-area" id="writingArea" placeholder="I would like to learn…"></textarea><div style="display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:12px;flex-wrap:wrap"><span style="font-size:11px;color:var(--muted)" id="wordCount">0 words</span><button class="btn btn-secondary" id="clearWriting">Clear text</button></div></div>
-      </div>
-    </section>
-
-    <section id="resources">
-      <div class="shell">
-        <div class="section-head"><div><span class="kicker">keep exploring</span><h2>Useful resources</h2></div><p>Extra places to practise and discover more English. External websites open in a new tab.</p></div>
-        <div class="resource-list">
-          <div class="resource"><div class="resource-icon">📚</div><div><strong>Cambridge Dictionary</strong><span>Definitions, examples and pronunciation</span></div><a href="https://dictionary.cambridge.org/" target="_blank" rel="noopener">Visit ↗</a></div>
-          <div class="resource"><div class="resource-icon">🎙️</div><div><strong>BBC Learning English</strong><span>Videos, audio and everyday English</span></div><a href="https://www.bbc.co.uk/learningenglish" target="_blank" rel="noopener">Visit ↗</a></div>
-          <div class="resource"><div class="resource-icon">🌍</div><div><strong>British Council LearnEnglish</strong><span>Activities for different levels</span></div><a href="https://learnenglish.britishcouncil.org/" target="_blank" rel="noopener">Visit ↗</a></div>
-          <div class="resource"><div class="resource-icon">📝</div><div><strong>Write & Improve</strong><span>Writing practice and feedback</span></div><a href="https://writeandimprove.com/" target="_blank" rel="noopener">Visit ↗</a></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about">
-      <div class="shell about">
-        <div class="about-art" aria-hidden="true">🪐</div>
-        <div class="about-copy"><span class="kicker">about cosmic</span><h2 style="font-size:clamp(30px,4vw,43px);margin:10px 0">A universe made for curious minds.</h2><p>Cosmic English Learning is a learning space built around a simple idea: improving your English should feel like exploring, not like being afraid of making mistakes.</p><p>Take your time, revisit a topic and celebrate the small wins. Every new word is another star in your sky.</p><a class="btn btn-secondary" href="https://sites.google.com/view/cosmicenglishlearning/" target="_blank" rel="noopener">Visit the original learning site ↗</a></div>
+    <section class="workspace" id="learning" aria-label="Original Cosmic English Learning website">
+      <aside class="side"><h2>Explore the site</h2>
+        <a href="https://sites.google.com/view/cosmicenglishlearning/" target="cosmic-content">✦ Home</a>
+        <a href="https://sites.google.com/view/cosmicenglishlearning/" target="cosmic-content">🎧 Listening</a>
+        <a href="https://sites.google.com/view/cosmicenglishlearning/" target="cosmic-content">📖 Reading</a>
+        <a href="https://sites.google.com/view/cosmicenglishlearning/" target="cosmic-content">🪐 Vocabulary</a>
+        <a href="https://sites.google.com/view/cosmicenglishlearning/" target="cosmic-content">🧩 Grammar</a>
+        <a href="https://sites.google.com/view/cosmicenglishlearning/" target="cosmic-content">🗣 Speaking</a>
+        <a href="https://sites.google.com/view/cosmicenglishlearning/" target="cosmic-content">✍ Writing</a>
+        <a href="https://sites.google.com/view/cosmicenglishlearning/" target="cosmic-content">☄ Alone & Together</a>
+        <small>Use the original site's own navigation inside the learning area to open its pages and resources.</small>
+      </aside>
+      <div class="frame-wrap"><div class="frame-head"><span class="orb"></span><span class="orb"></span><span class="orb"></span><span class="frame-label">COSMIC ENGLISH · ORIGINAL LEARNING MATERIALS</span><a href="https://sites.google.com/view/cosmicenglishlearning/" target="_blank" rel="noopener">Open in new tab ↗</a></div>
+        <iframe name="cosmic-content" title="Original Cosmic English Learning website" src="https://sites.google.com/view/cosmicenglishlearning/" loading="eager" referrerpolicy="strict-origin-when-cross-origin" allow="fullscreen"></iframe>
+        <div class="fallback" id="fallback"><h2>Open the original learning space</h2><p>Your browser may not allow this Google Site to appear inside another website. All original pages and resources are still available from the button below.</p><a href="https://sites.google.com/view/cosmicenglishlearning/" target="_blank" rel="noopener">Visit Cosmic English Learning ↗</a></div>
       </div>
     </section>
   </main>
-
-  <footer class="footer"><div class="shell footer-inner"><a class="brand" href="#home"><span class="brand-mark">✦</span><span>cosmic english</span></a><span>Made for curious minds. Keep exploring. ✧</span><span>© <span id="year"></span> Cosmic English Learning</span></div></footer>
-  <div class="toast" id="toast" role="status" aria-live="polite"></div>
-
+  <footer><div class="shell foot"><strong>Cosmic English Learning</strong><span>Original educational materials by María de Gonzalo.</span><span>Content remains attributed to its author · <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank" rel="noopener">CC BY-NC-SA 3.0</a></span></div></footer>
   <script>
-    const $ = (s,root=document) => root.querySelector(s);
-    const $$ = (s,root=document) => [...root.querySelectorAll(s)];
-    const toast = (message) => { const el=$('#toast'); el.textContent=message; el.classList.add('show'); clearTimeout(window.toastTimer); window.toastTimer=setTimeout(()=>el.classList.remove('show'),1900); };
-    $('#year').textContent = new Date().getFullYear();
-
-    // Mobile navigation
-    $('#menuToggle').addEventListener('click',()=>{const panel=$('#mobilePanel');const open=panel.classList.toggle('open');$('#menuToggle').setAttribute('aria-expanded',String(open));});
-    $$('#mobilePanel a').forEach(a=>a.addEventListener('click',()=>{$('#mobilePanel').classList.remove('open');$('#menuToggle').setAttribute('aria-expanded','false');}));
-
-    // Theme toggle
-    $('#themeToggle').addEventListener('click',()=>{document.body.classList.toggle('light');$('#themeToggle').textContent=document.body.classList.contains('light')?'☾':'☼';});
-
-    // Lesson search
-    $('#siteSearch').addEventListener('input',e=>{const q=e.target.value.trim().toLowerCase();$$('[data-search]').forEach(card=>{card.classList.toggle('hidden',q && !card.dataset.search.includes(q));});if(q) $('#explore').scrollIntoView({behavior:'smooth',block:'start'});});
-
-    // Browser speech synthesis
-    $$('[data-say]').forEach(button=>button.addEventListener('click',()=>{if(!('speechSynthesis' in window)){toast('Speech playback is not available in this browser.');return;}speechSynthesis.cancel();const utterance=new SpeechSynthesisUtterance(button.dataset.say);utterance.lang='en-US';utterance.rate=.88;speechSynthesis.speak(utterance);}));
-
-    // Vocabulary flashcards
-    const words=[
-      ['Curious','Wanting to learn or know more about something.','I am curious about the stars.'],
-      ['Discover','To find something for the first time.','We discovered a quiet café.'],
-      ['Improve','To become better, or make something better.','Practice can improve your confidence.'],
-      ['Journey','The act of travelling from one place to another; also a process of change.','Learning a language is a journey.'],
-      ['Brave','Ready to face something difficult or unfamiliar.','It was brave of her to speak up.'],
-      ['Wonder','A feeling of surprise and admiration.','The night sky fills me with wonder.']
-    ];let wordIndex=0;
-    function showWord(){const w=words[wordIndex];$('#vocabWord').textContent=w[0];$('#vocabMeaning').textContent=w[1];$('#vocabCount').textContent='WORD '+(wordIndex+1)+' OF '+words.length;$('#vocabCardExample')?.remove();}
-    $('#prevWord').addEventListener('click',()=>{wordIndex=(wordIndex-1+words.length)%words.length;showWord();});
-    $('#nextWord').addEventListener('click',()=>{wordIndex=(wordIndex+1)%words.length;showWord();});
-
-    // Reusable multiple-choice feedback
-    function setupQuiz(containerId,feedbackId,successMessage,tryAgain){const container=$('#'+containerId);container.addEventListener('click',e=>{const button=e.target.closest('button[data-correct]');if(!button)return;const correct=button.dataset.correct==='true';$('#'+feedbackId).textContent=correct?successMessage:tryAgain;$('#'+feedbackId).style.color=correct?'var(--green)':'var(--pink)';container.querySelectorAll('button').forEach(b=>b.disabled=true);setTimeout(()=>container.querySelectorAll('button').forEach(b=>b.disabled=false),900);});}
-    setupQuiz('readingOptions','readingFeedback','Exactly! She records her questions and observations.','Not quite — look for the sentence about her notebook.');
-    setupQuiz('grammarOptions','grammarFeedback','Correct! With “he”, “she” or “it”, add -s: “plays”.','Almost! Remember the he / she / it rule.');
-
-    // Speaking prompt generator
-    const prompts=['Describe a place where you feel relaxed.','Talk about a skill you would love to learn.','Describe a film, book or game you enjoyed.','What does a perfect weekend look like for you?','Talk about a person who inspires you.','If you could visit any country, where would you go and why?'];
-    let lastPrompt=0;$('#newPrompt').addEventListener('click',()=>{let next;do{next=Math.floor(Math.random()*prompts.length)}while(next===lastPrompt);lastPrompt=next;$('#speakingPrompt').textContent=prompts[next];});
-
-    // Writing word counter — text remains local to this page
-    $('#writingArea').addEventListener('input',e=>{const text=e.target.value.trim();const count=text?text.split(/\s+/).length:0;$('#wordCount').textContent=count+' '+(count===1?'word':'words');});
-    $('#clearWriting').addEventListener('click',()=>{$('#writingArea').value='';$('#wordCount').textContent='0 words';toast('Your writing area is clear.');});
-
-    // Highlight active section in desktop nav
-    const sections=$$('main section[id]');
-    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){$$('.navlinks a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+entry.target.id));}}),{rootMargin:'-35% 0px -55% 0px'});
-    sections.forEach(section=>observer.observe(section));
+    // If a browser blocks cross-origin framing, the direct link remains available.
+    const frame=document.querySelector('iframe');
+    frame.addEventListener('error',()=>{document.querySelector('.fallback').style.display='block';});
+    document.querySelectorAll('.side a').forEach(link=>link.addEventListener('click',()=>{document.querySelector('.frame-wrap').scrollIntoView({behavior:'smooth',block:'start'});}));
   </script>
 </body>
 </html>
